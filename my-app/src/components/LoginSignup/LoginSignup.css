@@ -1,0 +1,163 @@
+
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif; 
+}
+
+body {
+  background-image: 'backgd';
+  background-color: #121212; 
+  color: #E0E0E0; 
+}
+
+.container {
+   display: flex;
+   flex-direction: column; 
+   justify-content: center; 
+   align-items: center; 
+   margin: auto;
+   margin-top: 100px; 
+   background: #1E1E1E; 
+   padding: 15px; 
+   width: 350px; 
+   height: auto; 
+   border-radius: 20px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+}
+ 
+.header {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 1px;
+   width: 100%;
+   margin-bottom: -5px; 
+}
+ 
+.text {
+   color: #FFFFFF; 
+   font-size: 28px; 
+   font-weight: 700;
+}
+ 
+.inputs {
+   margin-top: 15px; 
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 15px; 
+   width: 85%; 
+}
+ 
+.input {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   border-radius: 6px;
+   padding: 8px; 
+   background-color: #2C2C2C; 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+ 
+.input img {
+  margin-right: 10px; 
+}
+ 
+.input input {
+   height: 28px; 
+   width: 100%; 
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #E0E0E0; 
+   font-size: 16px; 
+}
+ 
+.bottom-section {
+   margin-top: -30px; 
+   text-align: center;
+   width: 100%; 
+}
+ 
+.forgot_password {
+   padding-left: 0px;
+   margin-top: 1px;
+   color: #BB86FC; 
+   font-size: 14px; 
+}
+ 
+.forgot_password span {
+   color: #BB86FC; 
+   cursor: pointer;
+}
+ 
+.submit_container {
+   display: flex;
+   gap: 20px; 
+   justify-content: space-around; 
+   width: 100%;
+   margin: 40px auto; 
+}
+ 
+.submit {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   padding: 8px 16px; 
+   /* background-color: #BB86FC;  */
+   background-color:#333333 ;
+   color: white; 
+   border-radius: 50px;
+   font-size: 16px; 
+   text-align: center;
+   width: 40%; 
+   height: 45px; 
+   transition: background-color 0.3s ease;
+}
+ 
+/* .submit:hover {
+   background-color: #3700B3; 
+   color: white; 
+}   */
+
+.gray {
+   /* background-color: #333333;  */
+   background-color: blue;
+   color: #E0E0E0;
+}
+.gray:hover{
+  background-color: #3700B3; 
+   color: white; 
+
+}
+
+.error {
+   color: #CF6679; 
+   font-size: 12px; 
+   margin-top: 5px; 
+}
+
+.message {
+  margin: 0px;
+  padding: 6px; 
+  font-size: 14px;
+  color: #E0E0E0; 
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.input img {
+  margin-right: 10px; 
+}
+
+.input input {
+  flex: 1; 
+  background-color: transparent; 
+}
+
